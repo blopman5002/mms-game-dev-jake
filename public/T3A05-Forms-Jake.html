@@ -23,13 +23,5 @@ Fancy<br>
 Type here
 </textarea><br>
 
-Checkbox: <input type="checkbox">Water</input>
-<img src="water.png" alt="A image" style="height: 200px;width:200px">
-
-
-$(document).ready(function(){
-  $('water').hide();
-  $('input:checkbox').change(function(){
-    this.checked?$('water').show():$('water').hide();
-  })
-});
+<input type="checkbox" onclick="show_img()" id="check" value="whatever" name="mud">water</input>
+<div id="water.png></div>
