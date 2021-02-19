@@ -21,4 +21,15 @@ Fancy<br>
 </select>
 <textarea id="Type Here" rows=4 cols=20
 Type here
-</textarea>
+</textarea><br>
+
+<input type="checkbox">Water</input>
+<img src="water.png" alt="A image" style="height: 200px;width:200px">
+
+
+$(document).ready(function(){
+  $('img').hide();
+  $('input:checkbox').change(function(){
+    this.checked?$('img').show():$('img').hide();
+  })
+});
