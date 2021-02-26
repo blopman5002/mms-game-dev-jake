@@ -32,7 +32,10 @@ store this input variable into x:
 <input type=button value="Squared X" onclick="{
      x = document.getElementById('myText03').value
      //alert('x: ' + x)
-     document.getElementById('mySpan02').innerHTML = x + ' <b>Square rooted</b> is ' + &#8730;x
+     document.getElementById('mySpan02').innerHTML = x + ' <b>Square rooted</b> is ' + <script language="JavaScript">
+var num=Math.sqrt(x);
+document.write(num);
+</script>
 }"><br><br>
 
 <span id="mySpan02" ></Span><br><br>
