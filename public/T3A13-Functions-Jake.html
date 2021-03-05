@@ -1,0 +1,21 @@
+<h1 align=center> T3A13-Functions-Jake.html </h1>
+<3> Version Number: 0.0.1 </h3>
+
+<script>
+function myBasicFun(){
+   document.getELementById('mySpan01').innerHTML = "wow"
+}
+function myAdvancedFun(x,y){
+      return x*y
+}
+</script>
+
+<input id="myText01" type=text value 3 ><br><br>
+<input type=button value="Run function" onclick="{
+   //alert('button works')
+   myBasicFun()
+}"><br><br>
+<input type=button value="Advanced" onclick="{
+      document.getELementById('mySpan01').innerHTML = myAdvancedFun(3,2)
+}"><br><br>
+<span id="mySpan01">...</span><br><br>
